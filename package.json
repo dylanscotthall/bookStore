@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": "16.13.2"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dylanscotthall/dylsBookStore.git"
