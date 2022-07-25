@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/dylanscotthall/dylsBookStore#readme",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "react-scripts": "^5.0.1"
   }
 }
