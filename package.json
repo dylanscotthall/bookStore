@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": "16.13.2",
-    "npm": "8.14.0"
+	"npm": "8.14.0"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/dylanscotthall/dylsBookStore/issues"
   },
-  "homepage": "https://github.com/dylanscotthall/dylsBookStore#readme",
-  "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "react-scripts": "^5.0.1"
-  }
+  "homepage": "https://github.com/dylanscotthall/dylsBookStore#readme"
 }
