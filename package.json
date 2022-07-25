@@ -1,0 +1,22 @@
+{
+  "name": "dylsbookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"bom": "cd backend && npm install --legacy-peer-deps && cd ../frontend && npm install --legacy-peer-deps &&"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanscotthall/dylsBookStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanscotthall/dylsBookStore/issues"
+  },
+  "homepage": "https://github.com/dylanscotthall/dylsBookStore#readme"
+}
