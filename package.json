@@ -1,26 +1,21 @@
 {
-  "name": "dylsbookstore",
+  "name": "bookstoredyl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm run build",
+    "build": "cd backend && npm install --legacy-peer-deps && cd ../frontend && npm install --legacy-peer-deps && npm run build",
     "start": "node backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"bom": "cd backend && npm install --legacy-peer-deps && cd ../frontend && npm install --legacy-peer-deps && "
-  },
-  "engines": {
-    "node": "16.13.2",
-	"npm": "8.14.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanscotthall/dylsBookStore.git"
+    "url": "git+https://github.com/dylanscotthall/test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dylanscotthall/dylsBookStore/issues"
+    "url": "https://github.com/dylanscotthall/test/issues"
   },
-  "homepage": "https://github.com/dylanscotthall/dylsBookStore#readme"
+  "homepage": "https://github.com/dylanscotthall/test#readme"
 }

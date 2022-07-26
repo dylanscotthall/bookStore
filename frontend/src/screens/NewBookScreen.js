@@ -17,12 +17,13 @@ export default function SignupScreen(){
 
     const submitHandler = async (e) => {
         e.preventDefault();
+        navigate('/');
         const {data} = await Axios.post('/api/books/add', {
             name,
             author,
             description,
         });
-        navigate('/');
+        
     }
 
     return(
