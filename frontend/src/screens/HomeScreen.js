@@ -1,5 +1,5 @@
-import React, { Component, useReducer } from 'react';
-import { useEffect, useState } from 'react';
+import React, { useReducer } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
@@ -8,8 +8,6 @@ import Book from '../components/Book';
 import LoadingBox from '../components/LoadingBox';
 import { Helmet } from 'react-helmet-async';
 import MessageBox from '../components/MessageBox';
-import Button from 'react-bootstrap/esm/Button';
-import { Link } from 'react-router-dom';
 // import data from '../data.js';
 
 const reducer = (state, action) => {
